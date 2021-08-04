@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Weather-App</title>
+  <link rel="stylesheet" href="public/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class=" raj container-fluid">
+    <h1><ins>Weather-App</ins></h1>
+
+
+    <form class="form-inline my-2 my-lg-0" action="/" method="post">
+      <label for="Cityinput" class=" label col-sm-2 col-form-label"><b>CityName:</b></label>
+      <input id="cityinput" class=" input form-control mr-sm-2" type="text" name="cityName" placeholder="Search" aria-label="Search">
+      <button type="submit" class=" button btn btn-outline-success my-2 my-sm-0" name="button">GO</button>
+    </form>
+
+
+  </div>
+
+
+  <style>
+    body {
+      background-color: #FAAD80;
+
+    }
+
+    .label {
+      color: red;
+    }
+
+    h1 {
+      color: #0A1931;
+      padding: 10px;
+
+    }
+
+    h4 {
+      text-align: center;
+      margin-top: 400px;
+      padding: 40px;
+      position: absolute;
+
+    }
+
+    form {
+      padding: 40px;
+    }
+
+    @media screen and (min-width: 700px) {
+      body {
+        padding: 80px;
+      }
+
+      .raj {
+        width: 80%;
+      }
+    }
+  </style>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
